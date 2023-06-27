@@ -8,7 +8,7 @@
     <title>Please Register here for Devops</title>
 </head>
 <body>
-    <h1>Devops registration form</h1>
+    <h1>register for devops here Devops </h1>
     <form action="">
         <!-- Headings for the form -->
         <div class="headingsContainer">
