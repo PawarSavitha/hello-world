@@ -29,7 +29,7 @@
             <input type="OTP" placeholder="Enter OTP" name="one time password" required>
 	    <br><br>
             <!-- Password -->
-            <label for="pswrd">Your password</label>
+            <label for="pswrd">Your passsword</label>
             <input type="password" placeholder="Enter Password" name="pswrd" required>
 
             
