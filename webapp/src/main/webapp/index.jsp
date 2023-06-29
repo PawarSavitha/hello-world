@@ -26,7 +26,7 @@
 
             <br><br>
 	    <label for="otp">Your OTP</label>
-            <input type="OTP" placeholder="Enter OTP" name="OTP" required>
+            <input type="OTP" placeholder="Enter OTP" name="one time password" required>
 	    <br><br>
             <!-- Password -->
             <label for="pswrd">Your password</label>
