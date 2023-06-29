@@ -25,7 +25,9 @@
             <input type="text" placeholder="Enter Username" name="username" required>
 
             <br><br>
-
+	    <label for="otp">Your OTP</label>
+            <input type="OTP" placeholder="Enter OTP" name="OTP" required>
+	    <br><br>
             <!-- Password -->
             <label for="pswrd">Your password</label>
             <input type="password" placeholder="Enter Password" name="pswrd" required>
