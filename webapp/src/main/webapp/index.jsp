@@ -25,11 +25,11 @@
             <input type="text" placeholder="Enter Username" name="username" required>
 
             <br><br>
-	    <label for="otp">Your OTP</label>
+	    <label for="otp">Your ONE TIME PASSWORD</label>
             <input type="OTP" placeholder="Enter OTP" name="one time password" required>
 	    <br><br>
             <!-- Password -->
-            <label for="pswrd">Your passsword</label>
+            <label for="pswrd">Your password</label>
             <input type="password" placeholder="Enter Password" name="pswrd" required>
 
             
