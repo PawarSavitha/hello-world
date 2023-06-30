@@ -1,41 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="loginpage.css">
-    <h1>New user Register </h1>
-    <title>Please Register here for Devops</title>
-</head>
-<body>
-    <h1>register for devops here Devops </h1>
-    <form action="">
-        <!-- Headings for the form -->
-        <div class="headingsContainer">
-            <h3>Sign in</h3>
-            <p>Sign in with your username and password</p>
-        </div>
-
-        <!-- Main container for all inputs -->
-        <div class="mainContainer">
-            <!-- Username -->
-            <label for="username">Your username</label>
-            <!-- Make sure to put "required" for both the input fields -->
-            <input type="text" placeholder="Enter Username" name="username" required>
-
-            <br><br>
-	    <label for="otp">Your ONE TIME PASSWORD</label>
-            <input type="OTP" placeholder="Enter OTP" name="one time password" required>
-	    <br><br>
-            <!-- Password -->
-            <label for="pswrd">Your password</label>
-            <input type="password" placeholder="Enter Password" name="pswrd" required>
-
-            
-
-        </div>
-
-    </form>
-</body>
-</html>
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Please Login for Devops Here</title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> Student Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html>  
